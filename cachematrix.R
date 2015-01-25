@@ -25,7 +25,6 @@ makeCacheMatrix <- function(x = matrix()) {
 ## @param: x must be cached and returned.
 
 
-
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         Imatx <- x$get_Imat_mean()
